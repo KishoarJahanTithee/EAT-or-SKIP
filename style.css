@@ -24,7 +24,7 @@ body h2 {
 
 .first-class {
   display: flex;
-  background-color: skyblue;
+  /*background-color: skyblue;*/
   background-repeat: no-repeat;
   padding-bottom: 30px;
   margin-bottom: 10px;
@@ -54,7 +54,8 @@ section .half-width {
   display: flex;
   background-image: linear-gradient(to right, rgb(0, 195, 255), #ff9a60);
   background-repeat: no-repeat;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
+  margin-bottom: 10px;
 }
 .half-width {
   width: 50%;
@@ -64,21 +65,105 @@ section .half-width {
 }
 #second-class-1 p {
   text-align: justify;
+  font-weight: 500;
 }
 #second-class-1 {
   padding-right: 10%;
 }
 #second-class-img {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-left: 10%;
 }
 .link-button-2 {
   text-decoration: none;
-  background-image: linear-gradient(to right, #e4480a, #ff9a60);
+  background-image: linear-gradient(to left, #e4480a, #ff9a60);
 
   padding: 10px 30px;
   border-radius: 50px;
   color: white;
   font-weight: 700;
+}
+#loss {
+  font-weight: 700;
+  font-size: 25px;
+}
+.third-class {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.container {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.container h2 {
+  text-align: center;
+}
+.container p {
+  text-align: justify;
+}
+.about {
+  padding-top: 30px;
+  text-align: center;
+}
+.third-class h2 {
+  font-size: 40px;
+}
+.food {
+  box-shadow: 10px 10px 40px gray;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.last-box {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  height: 400px;
+  width: 70%;
+  border-radius: 0;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-image: url(images/lastBox1.jpg);
+  background-repeat: no-repeat;
+}
+.follower {
+  width: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+.follower h3 {
+  font-weight: 600;
+  font-size: 2em;
+}
+.bigfooter {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(to bottom, rgb(106, 158, 129), white);
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 60px;
+}
+.bigfooter h3 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+footer {
+  margin-top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
 }
