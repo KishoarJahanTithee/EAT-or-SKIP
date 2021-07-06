@@ -124,7 +124,7 @@ section .half-width {
 .last-box {
   display: flex;
   margin-top: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   height: 400px;
   width: 70%;
   border-radius: 0;
@@ -152,11 +152,41 @@ section .half-width {
   background-image: linear-gradient(to bottom, rgb(106, 158, 129), white);
   margin-bottom: 0;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 .bigfooter h3 {
   font-weight: bolder;
   font-size: 20px;
+}
+.icon {
+  padding-left: 47%;
+  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+}
+#icon1 {
+  text-decoration: none;
+  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background: #000000;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
+}
+#icon2 {
+  text-decoration: none;
+  margin-left: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 5px;
+  background: #010102;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
 }
 footer {
   margin-top: 0;
@@ -166,4 +196,8 @@ footer {
   color: white;
   text-align: center;
   padding-top: 30px;
+}
+footer h4 {
+  font-weight: 300;
+  font-size: 15px;
 }
