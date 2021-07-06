@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.eat {
+  color: rgb(19, 88, 46);
+}
+span {
+  color: orangered;
+}
+span .eat {
+  color: rgb(19, 88, 46);
+}
+.regret {
+  color: rgb(253, 127, 10);
+}
+body h1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 80px;
+}
+body h2 {
+  font-size: 60px;
+}
+
+.first-class {
+  display: flex;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+section .half-width img {
+  width: 40%;
+}
+section .half-width {
+  width: 60%;
+}
+.half-width {
+  padding-left: 5%;
+}
+.half-width img {
+  padding-top: 80px;
+  width: 100%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #e4480a, #ff9a60);
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+}
+.second-class {
+  display: flex;
+  background-image: linear-gradient(to right, rgb(0, 195, 255), #ff9a60);
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+.half-width {
+  width: 50%;
+}
+#second-class-1 h3 {
+  font-size: 50px;
+}
+#second-class-1 p {
+  text-align: justify;
+}
+#second-class-1 {
+  padding-right: 10%;
+}
+#second-class-img {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10%;
+}
+.link-button-2 {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #e4480a, #ff9a60);
+
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+}
